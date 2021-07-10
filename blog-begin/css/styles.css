@@ -38,7 +38,27 @@ font-size: 3rem;
 }
 nav{
     border-top: 3px solid brown;
-    border-bottom: 3px solid cornflowerblue;
+    border-bottom: 3px solid rgb(16, 66, 160); 
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color:rgba(70, 13, 13, 0.945);
+    display: block;
+    padding: 0.5rem 1rem;
+}
+nav a:hover{
+    background-color: black;
+    color: rgb(156, 235, 78);
+    text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Kavivanar', cursive;
