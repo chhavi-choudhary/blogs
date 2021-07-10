@@ -7,6 +7,39 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.wrapper{
+    width:80%;
+    margin:0 auto;
+    border: 5px solid green;
+}
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.leftheader{
+flex-basis:40%;
+text-align: right;
+padding-right: 0.5rem;
+
+}
+.rightheader{
+flex-basis: 60%;
+padding-left:0.5rem;
+margin-top: 3.75rem;
+}
+.rightheader h1{
+margin: 0;
+color: rgb(33, 160, 33);
+font-size: 3rem;
+}
+.rightheader p{
+    margin-top: -0.5rem;
+}
+nav{
+    border-top: 3px solid brown;
+    border-bottom: 3px solid cornflowerblue;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Kavivanar', cursive;
     font-weight: normal;
